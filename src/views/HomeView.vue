@@ -10,20 +10,20 @@ const announcements = [
     excerpt: 'Join us for the annual general meeting where we will discuss the upcoming community improvements and elect new board members.',
     icon: Calendar
   },
-  {
-    id: 2,
-    title: 'Neighborhood Cleanup Drive',
-    date: 'June 20, 2026',
-    excerpt: 'Help keep Lumad Apasanon beautiful. Trash bags and gloves will be provided. Breakfast will be served for all volunteers afterwards.',
-    icon: Bell
-  },
-  {
-    id: 3,
-    title: 'New Waste Disposal Guidelines',
-    date: 'June 5, 2026',
-    excerpt: 'Please review the updated waste disposal guidelines to ensure our community remains clean and eco-friendly.',
-    icon: FileText
-  }
+  // {
+  //   id: 2,
+  //   title: 'Neighborhood Cleanup Drive',
+  //   date: 'June 20, 2026',
+  //   excerpt: 'Help keep Lumad Apasanon beautiful. Trash bags and gloves will be provided. Breakfast will be served for all volunteers afterwards.',
+  //   icon: Bell
+  // },
+  // {
+  //   id: 3,
+  //   title: 'New Waste Disposal Guidelines',
+  //   date: 'June 5, 2026',
+  //   excerpt: 'Please review the updated waste disposal guidelines to ensure our community remains clean and eco-friendly.',
+  //   icon: FileText
+  // }
 ]
 </script>
 
@@ -45,7 +45,7 @@ const announcements = [
           Welcome to your community
         </span>
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 max-w-3xl leading-tight">
-          Experience the best of <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-200">Lumad Apasanon</span>
+          Experience the best of <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-200">Lumad Apasanon Homeowners Association, Inc.</span>
         </h1>
         <p class="text-lg md:text-xl text-secondary-300 mb-10 max-w-2xl leading-relaxed">
           A vibrant, safe, and welcoming homeowners association dedicated to enhancing the quality of life for all our residents.

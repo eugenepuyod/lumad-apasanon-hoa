@@ -9,7 +9,7 @@ const documentCategories = [
     files: [
       { name: 'Articles of Incorporation', size: '2.1 MB', date: 'Jan 2010' },
       { name: 'Bylaws', size: '4.5 MB', date: 'Mar 2015' },
-      { name: 'CC&Rs (Covenants, Conditions, and Restrictions)', size: '6.8 MB', date: 'Mar 2015' },
+      // { name: 'CC&Rs (Covenants, Conditions, and Restrictions)', size: '6.8 MB', date: 'Mar 2015' },
     ]
   },
   {
@@ -18,8 +18,8 @@ const documentCategories = [
     icon: FileText,
     files: [
       { name: 'Board Meeting Minutes - April 2026', size: '1.2 MB', date: 'Apr 2026' },
-      { name: 'Board Meeting Minutes - March 2026', size: '1.1 MB', date: 'Mar 2026' },
-      { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
+      // { name: 'Board Meeting Minutes - March 2026', size: '1.1 MB', date: 'Mar 2026' },
+      // { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
     ]
   },
   {
@@ -28,8 +28,8 @@ const documentCategories = [
     icon: Download,
     files: [
       { name: 'Architectural Modification Request', size: '0.8 MB', date: 'Jan 2026' },
-      { name: 'Clubhouse Reservation Form', size: '0.5 MB', date: 'Feb 2026' },
-      { name: 'Vehicle Registration Form', size: '0.6 MB', date: 'Jan 2026' },
+      // { name: 'Clubhouse Reservation Form', size: '0.5 MB', date: 'Feb 2026' },
+      // { name: 'Vehicle Registration Form', size: '0.6 MB', date: 'Jan 2026' },
     ]
   }
 ]

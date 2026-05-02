@@ -11,24 +11,24 @@ const events = [
     description: 'Join us for the annual general meeting. We will discuss upcoming community improvements, review the annual budget, and elect new board members. Attendance is highly encouraged.',
     type: 'Meeting'
   },
-  {
-    id: 2,
-    title: 'Neighborhood Cleanup Drive',
-    date: 'June 20, 2026',
-    time: '8:00 AM - 11:00 AM',
-    location: 'Main Park',
-    description: 'Help keep Lumad Apasanon beautiful. Trash bags and gloves will be provided. Breakfast will be served for all volunteers afterwards.',
-    type: 'Volunteer'
-  },
-  {
-    id: 3,
-    title: 'New Waste Disposal Guidelines',
-    date: 'June 5, 2026',
-    time: '10:00 AM - 3:00 PM',
-    location: 'Barangay Gym',
-    description: 'Please review the updated waste disposal guidelines to ensure our community remains clean and eco-friendly.',
-    type: 'Volunteer'
-  },
+  // {
+  //   id: 2,
+  //   title: 'Neighborhood Cleanup Drive',
+  //   date: 'June 20, 2026',
+  //   time: '8:00 AM - 11:00 AM',
+  //   location: 'Main Park',
+  //   description: 'Help keep Lumad Apasanon beautiful. Trash bags and gloves will be provided. Breakfast will be served for all volunteers afterwards.',
+  //   type: 'Volunteer'
+  // },
+  // {
+  //   id: 3,
+  //   title: 'New Waste Disposal Guidelines',
+  //   date: 'June 5, 2026',
+  //   time: '10:00 AM - 3:00 PM',
+  //   location: 'Barangay Gym',
+  //   description: 'Please review the updated waste disposal guidelines to ensure our community remains clean and eco-friendly.',
+  //   type: 'Volunteer'
+  // },
   
 ]
 </script>
