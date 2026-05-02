@@ -22,16 +22,16 @@ const documentCategories = [
       // { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
     ]
   },
-  {
-    title: 'Forms & Applications',
-    description: 'Downloadable forms for various requests and registrations.',
-    icon: Download,
-    files: [
-      { name: 'Architectural Modification Request', size: '0.8 MB', date: 'Jan 2026' },
-      // { name: 'Clubhouse Reservation Form', size: '0.5 MB', date: 'Feb 2026' },
-      // { name: 'Vehicle Registration Form', size: '0.6 MB', date: 'Jan 2026' },
-    ]
-  }
+  // {
+  //   title: 'Forms & Applications',
+  //   description: 'Downloadable forms for various requests and registrations.',
+  //   icon: Download,
+  //   files: [
+  //     { name: 'Architectural Modification Request', size: '0.8 MB', date: 'Jan 2026' },
+  //     { name: 'Clubhouse Reservation Form', size: '0.5 MB', date: 'Feb 2026' },
+  //     { name: 'Vehicle Registration Form', size: '0.6 MB', date: 'Jan 2026' },
+  //   ]
+  // }
 ]
 
 const handleDownload = (fileName) => {
