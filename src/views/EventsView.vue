@@ -7,7 +7,7 @@ const events = [
     title: 'Annual General Meeting',
     date: 'May 08, 2026',
     time: '6:00 PM - 8:00 PM',
-    location: 'Barangay Gym',
+    location: 'Sitio Central Apas, Barangay Apas Gym',
     description: 'Join us for the general meeting. We will discuss upcoming community improvements and elect new board members. Attendance is highly encouraged.',
     type: 'Meeting'
   },
