@@ -7,8 +7,8 @@ const documentCategories = [
     description: 'The foundational rules and regulations of our community.',
     icon: FileSearch,
     files: [
-      { name: 'Articles of Incorporation', size: '2.1 MB', date: 'Jan 2010' },
-      { name: 'Bylaws', size: '4.5 MB', date: 'Mar 2015' },
+      { name: 'APPOINTMENT OF INTERIM BOARD OF DIRECTORS', size: '2.1 MB', date: 'Jan 2010' },
+      // { name: 'Bylaws', size: '4.5 MB', date: 'Mar 2015' },
       // { name: 'CC&Rs (Covenants, Conditions, and Restrictions)', size: '6.8 MB', date: 'Mar 2015' },
     ]
   },
