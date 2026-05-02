@@ -17,7 +17,7 @@ const documentCategories = [
     description: 'Records of our monthly board meetings and annual general meetings.',
     icon: FileText,
     files: [
-      { name: 'Interim Board of Directors Meeting Minutes - April 2026', size: '1.2 MB', date: 'Apr 2026' },
+      { name: 'Interim Board of Directors Meeting Minutes - April 2026', size: '1.2 MB', date: 'May 2026' },
       // { name: 'Board Meeting Minutes - March 2026', size: '1.1 MB', date: 'Mar 2026' },
       // { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
     ]
