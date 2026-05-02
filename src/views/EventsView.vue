@@ -5,10 +5,10 @@ const events = [
   {
     id: 1,
     title: 'Annual General Meeting',
-    date: 'May 15, 2026',
+    date: 'May 08, 2026',
     time: '6:00 PM - 8:00 PM',
     location: 'Barangay Gym',
-    description: 'Join us for the annual general meeting. We will discuss upcoming community improvements, review the annual budget, and elect new board members. Attendance is highly encouraged.',
+    description: 'Join us for the general meeting. We will discuss upcoming community improvements and elect new board members. Attendance is highly encouraged.',
     type: 'Meeting'
   },
   // {

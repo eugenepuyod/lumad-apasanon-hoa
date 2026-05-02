@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router'
 const announcements = [
   {
     id: 1,
-    title: 'Annual General Meeting',
-    date: 'May 15, 2026',
-    excerpt: 'Join us for the annual general meeting where we will discuss the upcoming community improvements and elect new board members.',
+    title: 'General Meeting',
+    date: 'May 08, 2026',
+    excerpt: 'Join us for the general meeting where we will discuss the upcoming community improvements and elect new board members.',
     icon: Calendar
   },
   // {
