@@ -8,7 +8,8 @@ const announcements = [
     title: 'General Meeting',
     date: 'May 08, 2026',
     excerpt: 'Join us for the general meeting where we will discuss the upcoming community improvements and elect new board members.',
-    icon: Calendar
+    icon: Calendar,
+    link: '/events',
   },
   // {
   //   id: 2,
@@ -81,12 +82,16 @@ const announcements = [
             :key="item.id"
             class="bg-white rounded-2xl p-6 shadow-sm border border-secondary-100 hover:shadow-md transition-shadow group cursor-pointer"
           >
-            <div class="h-12 w-12 rounded-lg bg-primary-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-              <component :is="item.icon" class="h-6 w-6 text-primary-600" />
-            </div>
-            <div class="text-sm text-primary-600 font-medium mb-2">{{ item.date }}</div>
-            <h3 class="text-xl font-bold text-secondary-900 mb-3">{{ item.title }}</h3>
-            <p class="text-secondary-500 line-clamp-3 leading-relaxed">{{ item.excerpt }}</p>
+            <RouterLink
+              :to="`${item.link}`"
+            >
+              <div class="h-12 w-12 rounded-lg bg-primary-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <component :is="item.icon" class="h-6 w-6 text-primary-600" />
+              </div>
+              <div class="text-sm text-primary-600 font-medium mb-2">{{ item.date }}</div>
+              <h3 class="text-xl font-bold text-secondary-900 mb-3">{{ item.title }}</h3>
+              <p class="text-secondary-500 line-clamp-3 leading-relaxed">{{ item.excerpt }}</p>
+            </RouterLink>
           </div>
         </div>
         
