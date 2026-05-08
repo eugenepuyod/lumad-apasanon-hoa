@@ -5,7 +5,7 @@ const events = [
   {
     id: 1,
     title: 'General Meeting',
-    date: 'May 08, 2026',
+    date: 'May 09, 2026',
     time: '6:00 PM - 8:00 PM',
     location: 'Sitio Central Apas, Barangay Apas Gym',
     description: 'Join us for the general meeting. We will discuss upcoming community improvements and elect new board members. Attendance is highly encouraged.',
