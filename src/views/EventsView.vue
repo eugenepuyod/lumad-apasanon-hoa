@@ -4,7 +4,7 @@ import { Calendar as CalendarIcon, MapPin, Clock } from 'lucide-vue-next'
 const events = [
   {
     id: 1,
-    title: 'General Meeting',
+    title: 'General Meetings',
     date: 'May 09, 2026',
     time: '6:00 PM - 8:00 PM',
     location: 'Sitio Central Apas, Barangay Apas Gym',
