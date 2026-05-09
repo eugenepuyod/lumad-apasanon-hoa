@@ -4,11 +4,11 @@ import { Calendar as CalendarIcon, MapPin, Clock } from 'lucide-vue-next'
 const events = [
   {
     id: 1,
-    title: 'General Meeting',
-    date: 'May 09, 2026',
+    title: '1st GENERAL ASSEMBLY',
+    date: 'May 16, 2026',
     time: '6:00 PM - 8:00 PM',
     location: 'Sitio Central Apas, Barangay Apas Gym',
-    description: 'Join us for the general meeting. We will discuss upcoming community improvements and elect new board members. Attendance is highly encouraged.',
+    description: 'Join us for the General Meeting as we discuss upcoming community improvements and elect the new Election Committee. Your attendance and participation are highly encouraged.',
     type: 'Meeting'
   },
   // {
