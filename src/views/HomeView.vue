@@ -5,8 +5,8 @@ import { RouterLink } from 'vue-router'
 const announcements = [
   {
     id: 1,
-    title: '1st GENERAL ASSEMBLY',
-    date: 'May 16, 2026',
+    title: 'NOTICE OF THE GENERAL ASSEMBLY',
+    date: 'May 17, 2026',
     excerpt: 'Join us for the General Meeting as we discuss upcoming community improvements and elect the new Election Committee. Your attendance and participation are highly encouraged.',
     icon: Calendar,
     link: '/events',
