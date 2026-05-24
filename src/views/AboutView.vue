@@ -16,7 +16,7 @@ const boardMembers = [
     bio: ''
   },
   {
-    name: 'Josephine Adlawan',
+    name: 'Josephine A. Lagura',
     role: 'Interim Board of Directors',
     image: '/images/josephine.png',
     bio: ''
