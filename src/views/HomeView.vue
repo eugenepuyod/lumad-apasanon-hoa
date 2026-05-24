@@ -1,5 +1,5 @@
 <script setup>
-import { ArrowRight, Bell, Calendar, FileText } from 'lucide-vue-next'
+import { ArrowRight, Bell, Calendar, FileText, Home } from 'lucide-vue-next'
 import { RouterLink } from 'vue-router'
 
 const announcements = [

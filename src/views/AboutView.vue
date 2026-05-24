@@ -44,7 +44,7 @@ const boardMembers = [
       <div class="text-center max-w-3xl mx-auto mb-20">
         <h1 class="text-4xl font-extrabold text-secondary-900 tracking-tight mb-4">About Lumad Apasanon</h1>
         <p class="text-xl text-secondary-500 leading-relaxed">
-          Founded in 2010, Lumad Apasanon is a vibrant residential community located in the heart of Apas, Cebu City. 
+          Founded in 2025, Lumad Apasanon is a vibrant residential community located in the heart of Apas, Cebu City. 
           We pride ourselves on fostering a safe, inclusive, and beautiful environment for all our families.
         </p>
       </div>
