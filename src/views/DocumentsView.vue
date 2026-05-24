@@ -7,7 +7,7 @@ const documentCategories = [
     description: 'The foundational rules and regulations of our community.',
     icon: FileSearch,
     files: [
-      { name: 'APPOINTMENT OF INTERIM BOARD OF DIRECTORS', size: '2.1 MB', date: 'April 28 2026', file: '/pdfs/Appointment-of-interim-board-of-directors.pdf', },
+      { name: 'APPOINTMENT OF INTERIM BOARD OF DIRECTORS', size: '964 KB', date: 'April 28 2026', file: '/pdfs/Appointment-of-interim-board-of-directors.pdf', },
       // { name: 'Bylaws', size: '4.5 MB', date: 'Mar 2015' },
       // { name: 'CC&Rs (Covenants, Conditions, and Restrictions)', size: '6.8 MB', date: 'Mar 2015' },
     ]
