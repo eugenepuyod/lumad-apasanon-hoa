@@ -5,26 +5,28 @@ import { RouterLink } from 'vue-router'
 const announcements = [
   {
     id: 1,
-    title: 'NOTICE OF THE GENERAL ASSEMBLY',
+    title: 'MINUTES OF THE MEETING 01-2026',
+    date: 'May 06, 2026',
+    excerpt: 'The Interim Board of Directors appointed Mr. Scott Cabigon as the Interim Chairman, Ms. Jocelyn Viajar-Puyod as our Interim Secretary, and Ms. Josephine Adlawan as Interim Treasurer, carried by the majority of the Interim Board of Directors. ',
+    icon: Calendar,
+    link: '/events',
+  },
+  {
+    id: 2,
+    title: 'MINUTES OF THE MEETING 02-2026',
+    date: 'May 13, 2026',
+    excerpt: 'The Interim Board of Directors - Josephine Adlawan-Lagura discussed and opened to the board regarding the Petition Letter sent to them to add additional members of the Association, as mentioned during the DHSUD General Assembly last April 23, 2026. The Association can add members by sending a petition and approval from the Board of Directors. After the Board approves this petition letter by resolution, it will be forwarded to DHSUD for Approval. ',
+    icon: Calendar,
+    link: '/events',
+  },
+  {
+    id: 3,
+    title: 'THE GENERAL ASSEMBLY',
     date: 'May 17, 2026',
     excerpt: 'Join us for the General Meeting as we discuss upcoming community improvements and elect the new Election Committee. Your attendance and participation are highly encouraged.',
     icon: Calendar,
     link: '/events',
   },
-  // {
-  //   id: 2,
-  //   title: 'Neighborhood Cleanup Drive',
-  //   date: 'June 20, 2026',
-  //   excerpt: 'Help keep Lumad Apasanon beautiful. Trash bags and gloves will be provided. Breakfast will be served for all volunteers afterwards.',
-  //   icon: Bell
-  // },
-  // {
-  //   id: 3,
-  //   title: 'New Waste Disposal Guidelines',
-  //   date: 'June 5, 2026',
-  //   excerpt: 'Please review the updated waste disposal guidelines to ensure our community remains clean and eco-friendly.',
-  //   icon: FileText
-  // }
 ]
 </script>
 
