@@ -7,21 +7,21 @@ const documentCategories = [
     description: 'The foundational rules and regulations of our community.',
     icon: FileSearch,
     files: [
-      { name: 'APPOINTMENT OF INTERIM BOARD OF DIRECTORS', size: '2.1 MB', date: 'May 28 2026' },
+      { name: 'APPOINTMENT OF INTERIM BOARD OF DIRECTORS', size: '2.1 MB', date: 'May 28 2026', file: '/pdfs/Appointment-of-interim-board-of-directors.pdf', },
       // { name: 'Bylaws', size: '4.5 MB', date: 'Mar 2015' },
       // { name: 'CC&Rs (Covenants, Conditions, and Restrictions)', size: '6.8 MB', date: 'Mar 2015' },
     ]
   },
-  {
-    title: 'Meeting Minutes',
-    description: 'Records of our monthly board meetings and annual general meetings.',
-    icon: FileText,
-    files: [
-      { name: 'Interim Board of Directors Meeting Minutes - May 2026', size: '1.2 MB', date: 'May 2026' },
-      // { name: 'Board Meeting Minutes - March 2026', size: '1.1 MB', date: 'Mar 2026' },
-      // { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
-    ]
-  },
+  // {
+  //   title: 'Meeting Minutes',
+  //   description: 'Records of our monthly board meetings and annual general meetings.',
+  //   icon: FileText,
+  //   files: [
+  //     { name: 'Interim Board of Directors Meeting Minutes - May 2026', size: '1.2 MB', date: 'May 2026' },
+  //     // { name: 'Board Meeting Minutes - March 2026', size: '1.1 MB', date: 'Mar 2026' },
+  //     // { name: 'Annual General Meeting 2025', size: '3.4 MB', date: 'Dec 2025' },
+  //   ]
+  // },
   // {
   //   title: 'Forms & Applications',
   //   description: 'Downloadable forms for various requests and registrations.',
@@ -34,20 +34,27 @@ const documentCategories = [
   // }
 ]
 
-const handleDownload = (fileName) => {
-  // Create a dummy text blob for demonstration since real PDFs aren't available
-  const content = `This is a placeholder document for: ${fileName}\n\nIn a fully integrated backend, this would download the actual PDF file.`
-  const blob = new Blob([content], { type: 'text/plain' })
-  const url = URL.createObjectURL(blob)
-  
+const handleDownloadAppointment = (file) => {
   const a = document.createElement('a')
-  a.href = url
-  a.download = `${fileName.replace(/\s+/g, '_')}.txt`
-  document.body.appendChild(a)
+  a.href = file.file
+  a.download = file.name + '.pdf'
   a.click()
-  document.body.removeChild(a)
-  URL.revokeObjectURL(url)
 }
+
+// const handleDownload = (fileName) => {
+//   // Create a dummy text blob for demonstration since real PDFs aren't available
+//   const content = `This is a placeholder document for: ${fileName}\n\nIn a fully integrated backend, this would download the actual PDF file.`
+//   const blob = new Blob([content], { type: 'text/plain' })
+//   const url = URL.createObjectURL(blob)
+  
+//   const a = document.createElement('a')
+//   a.href = url
+//   a.download = `${fileName.replace(/\s+/g, '_')}.txt`
+//   document.body.appendChild(a)
+//   a.click()
+//   document.body.removeChild(a)
+//   URL.revokeObjectURL(url)
+// }
 </script>
 
 <template>
@@ -83,7 +90,7 @@ const handleDownload = (fileName) => {
                   <p class="text-sm text-secondary-500">PDF Document • {{ file.size }} • Updated {{ file.date }}</p>
                 </div>
               </div>
-              <button @click="handleDownload(file.name)" class="btn-outline sm:w-auto w-full group-hover:border-primary-500 group-hover:text-primary-600">
+              <button @click="handleDownloadAppointment(file)" class="btn-outline sm:w-auto w-full group-hover:border-primary-500 group-hover:text-primary-600">
                 <Download class="h-4 w-4 mr-2" />
                 Download
               </button>
